@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.sangram.splitcircle'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.sangram.splitcircle'
+        minSdk 23
+        targetSdk 35
+        versionCode 3
+        versionName '2.1'
+    }
+}
